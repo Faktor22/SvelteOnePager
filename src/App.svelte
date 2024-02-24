@@ -14,7 +14,7 @@
   // Setup draggable slider functionality on mount
   onMount(() => {
     const slider = document.querySelector(".horizontal-scroll-container");
-    if (!slider) return; // Exit if slider not found to avoid errors
+    if (!slider) return;
 
     let isDown = false;
     let startX;
@@ -23,9 +23,9 @@
     // Mouse down event to initiate dragging
     slider.addEventListener("mousedown", (e) => {
       isDown = true;
-      slider.classList.add("active"); // Visual feedback for dragging
-      startX = e.pageX - slider.offsetLeft; // Starting X position
-      scrollLeft = slider.scrollLeft; // Starting scroll position
+      slider.classList.add("active");
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
     });
 
     // Clean up drag state on mouse leave and up
@@ -38,11 +38,11 @@
 
     // Mouse move event to handle dragging
     slider.addEventListener("mousemove", (e) => {
-      if (!isDown) return; // Only drag if mouse is down
-      e.preventDefault(); // Prevent default selection behavior
-      const x = e.pageX - slider.offsetLeft; // Current X position
-      const walk = (x - startX) * 1; // Calculate drag distance
-      slider.scrollLeft = scrollLeft - walk; // Scroll the slider
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 1;
+      slider.scrollLeft = scrollLeft - walk;
     });
   });
 </script>
