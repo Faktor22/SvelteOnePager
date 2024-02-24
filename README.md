@@ -3,10 +3,10 @@
 █▀ █░█ █▀▀ █░░ ▀█▀ █▀▀   █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀▀ █▀▀ █▀█
 ▄█ ▀▄▀ ██▄ █▄▄ ░█░ ██▄   █▄█ █░▀█ ██▄   █▀▀ █▀█ █▄█ ██▄ █▀▄
 
-Check work @https://svelteonepager.web.app/
+Check website @https://svelteonepager.web.app/
 ```
 
-# SvelteOnePager with Firebase Hosting
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
 
 ## About
 
