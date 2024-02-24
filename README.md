@@ -1,8 +1,18 @@
+```
+
+█▀ █░█ █▀▀ █░░ ▀█▀ █▀▀   █▀█ █▄░█ █▀▀   █▀█ ▄▀█ █▀▀ █▀▀ █▀█
+▄█ ▀▄▀ ██▄ █▄▄ ░█░ ██▄   █▄█ █░▀█ ██▄   █▀▀ █▀█ █▄█ ██▄ █▀▄
+
+Check work @https://svelteonepager.web.app/
+```
+
 # SvelteOnePager with Firebase Hosting
 
 ## About
 
 SvelteOnePager is an open-source, one-page website template built with Svelte, integrated with Firebase for easy deployment. It simplifies the development and deployment process, making it perfect for personal, educational, or small business websites.
+
+![SvelteOnePager Screenshot](https://i.ibb.co/hf0pC8H/screenshot-svelteonepager.png)
 
 ## Features
 
