@@ -6,7 +6,7 @@
 Check website @https://svelteonepager.web.app/
 ```
 
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://faktor22.nl)
 
 ## About
 
